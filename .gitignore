@@ -1,0 +1,13 @@
+node_modules/
+#that means the node_modules directory only gets ignored
+
+*.log
+#ignore compiled typescript files
+#*.js
+#ignore env files
+.env
+
+dist/
+
+.DS_Store
+Thumbs.db
